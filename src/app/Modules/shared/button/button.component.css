@@ -1,0 +1,22 @@
+button{
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffff;
+    border: none;
+    background: #E50913;
+
+    border-radius: 10px;
+    width: 260px;
+    height: 56px;
+    /* font-weight: 600; */
+    /* font-size: 18px; */
+    font-family: 'Sora';
+}
+
+.myBtn:hover{
+    /* background-color:none !important;
+    border-color: none !important; */
+    background-color:#E50913;
+    font-family: 'Sora';
+    
+}

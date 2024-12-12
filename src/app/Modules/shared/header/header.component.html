@@ -1,0 +1,61 @@
+
+<div class="container header-container">
+   <!-- <mat-toolbar class="matToolbar ">
+        <div class="header-logo"><span><img src="assets/Images/Layer_x0020_1.png"/></span></div>
+        <div class="header-nav">
+             <mat-list class="nav-list" role="list">
+                    <mat-list-item role="listitem"><span class="todo-vertical-line">Home</span> </mat-list-item>
+                    <mat-list-item role="listitem"><span class="todo-vertical-line">Services</span> </mat-list-item>
+                    <mat-list-item role="listitem"><span class="todo-vertical-line">Accessories</span> </mat-list-item>
+                    <mat-list-item role="listitem"><span class="todo-vertical-line">About Us</span> </mat-list-item>
+                    <mat-list-item role="listitem"><span class="todo-vertical-line"></span>
+                          <app-button buttonTitle="Register warrenty"></app-button>
+                          <button class="nav-btn" mat-button >Register warrenty</button>
+                    </mat-list-item>
+             </mat-list>
+        </div>
+   </mat-toolbar> -->
+   <nav class="navbar navToolbar navbar-expand-lg navbar-light bg-light">
+     <div class="container-fluid">
+       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <div class="col-md-4">
+          <div class="header-logo"><span><img src="assets/Images/Layer_x0020_1.png"/></span></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+       <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item" *ngFor="let item of headerNav">
+             <!-- <a class="nav-link active text-light mr-5" aria-current="page" href="#">{{item?.navName}}</a> -->
+             <span class="nav-link active text-light mr-5 cursor-pointer">{{item?.navName}}</span>
+           </li>
+           <!-- <li class="nav-item">
+             <a class="nav-link" href="#">Link</a>
+           </li> -->
+           <!-- <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Dropdown
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a class="dropdown-item" href="#">Action</a></li>
+               <li><a class="dropdown-item" href="#">Another action</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="#">Something else here</a></li>
+             </ul>
+           </li> -->
+           <!-- <li class="nav-item">
+             <a class="nav-link disabled">Disabled</a>
+           </li> -->
+           <button type="button" class="btn btn-secondary nav-btn">Register warrenty</button>
+           <!-- <app-button buttonTitle="Register warrenty"></app-button> -->
+         </ul>
+         <!-- <form class="d-flex">
+           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+           <button class="btn btn-outline-success" type="submit">Search</button>
+         </form> -->
+       </div>
+     </div>
+   </nav>
+</div>
+   

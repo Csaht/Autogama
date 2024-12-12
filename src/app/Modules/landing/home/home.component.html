@@ -1,0 +1,236 @@
+ <div class="container-fluid home-container">
+  <div class="home-banner-img-container">
+    <img class="home-banner-img" src="assets/Images/image 7.png" />
+  </div>
+
+  <div
+    class="home-banner-txt-container d-flex justify-content-center flex-column"
+  >
+    <div class="home-banner-txt-sm">The Exquisite Art of</div>
+    <div class="home-banner-txt-lg mb-4">Auto Detailing Done to Perfection</div>
+    <div class="mb-3">
+      
+      <app-button buttonTitle="Book an appointment"></app-button>
+    </div>
+    <div class="swipe-btn-container d-flex justify-content-center mb-1">
+      <span class="text-swipe">Swipe</span>
+      <span
+        ><img
+          class="home-banner-img doubleArrowImg"
+          src="assets/Images/keyboard_double_arrow_down.png"
+      /></span>
+    </div>
+  </div>
+</div> 
+
+
+
+<!-- You your vehicle Starts -->
+<!-- <div class="your-vehicle-container">
+      
+  <div class="section-heading">
+       <div><span class="section-heading-muted-text">You, your vehicle & Auto Gamma</span></div>
+       <div><h1 class="section-heading-lg-white-text">Taking extra care of <span class="section-heading-lg-red-text">your vehicle.</span></h1></div>
+   </div>
+
+   <div class="section-content">
+     <div class="your-vehicle-left-container">
+         <button class="nav-btn" mat-button >Register warrenty</button>
+         <button class="nav-btn" mat-button >Register warrenty</button>
+     </div>
+
+     <div class="your-vehicle-right-container">
+       <div class="home-banner-img-container">
+            <img class="home-banner-img" src="assets/Images/image 14.png"/>
+       </div>
+       <div>
+         <p class="para-text"> Experience convenience with our pickup and drop-off service, 
+           ensuring a seamless detailing experience from the comfort of your home or office.</p>
+       </div>
+     </div>
+   </div>
+</div> -->
+
+<!-- Contatct us to know more -->
+<!-- <section class="container-fluid know-more-section">
+  
+  <div class="d-flex container knoMoreContainer">
+    <div class="know-more-info col-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="section-heading-lg-white-text">
+        Contact us to <br />
+        <span class="section-heading-lg-red-text">know more.</span>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <div class="listitem">
+              <div class="listitem-img">
+                <img src="assets/Images/location_on.png" />
+              </div>
+              <div class="listitem-txt">
+                Shop no. 16 & 17, Shreeji Parasio, Beside Tulsi Aangan Soc.,
+                Prasad Hotel Road, Badlapur, Maharashtra - 421503
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="listitem">
+              <div><img src="assets/Images/Frame 1000004371.png" /></div>
+              <div class="listitem-txt">+91 92268 82024 / +91 90761 45744</div>
+            </div>
+          </li>
+          <li>
+            <div class="listitem">
+              <div><img src="assets/Images/mail.png" /></div>
+              <div class="listitem-txt">info@autogamma.in</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="know-more-form col-12 col-sm-12 col-md-6 col-lg-6">
+      <form class="w-90 formTg">
+      
+        <div>
+          <app-input placeholder="Name"></app-input>
+        </div>
+
+        <div>
+          <app-input placeholder="Email"></app-input>
+        </div>
+
+        <div>
+          <app-input placeholder="Contact Number"></app-input>
+        </div>
+
+        <div>
+          <app-input placeholder="Message"></app-input>
+        </div>
+      
+        <div class="">
+          <app-button buttonTitle="Get In Touch"></app-button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section> -->
+
+
+
+<section class="container-fluid your-vehicle-container">
+  <div class="container">
+    <div class="section-heading">
+      <div class="section-heading-muted-text-container" >
+        <span class="section-heading-muted-text"
+          >You, your vehicle & Auto Gamma</span
+        >
+      </div>
+      <div >
+        <h1 class="section-heading-lg-white-text">
+          Taking extra care of
+          <span class="section-heading-lg-red-text">your vehicle.</span>
+        </h1>
+      </div>
+    </div>
+
+  
+    <div class="d-flex your-vehicle-contentContainerMobile col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 ">
+      <div class="list-group col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 your-vehicle-content-left ">
+        <button
+          class="list-group-item list-group-item-action tabButton"
+          (click)="loadComponent('component1')"
+          id="tab1"
+        >
+          <div class="d-flex tabBtnContentContainer">
+            <div class="d-flex tabBtnContent">
+              <span>
+                <img src="assets/Images/key.png" />
+              </span>
+              <span style="margin-left: 10px;"> Pickup & Drop-off</span>
+            </div>
+            <span><img src="assets/Images/Frame 1000004545.png" /></span>
+          </div>
+        </button>
+
+        <button
+          class="list-group-item list-group-item-action tabButton"
+          (click)="loadComponent('component2')"
+          id="tab2"
+        >
+        <div class="d-flex tabBtnContentContainer">
+          <div class="d-flex tabBtnContent">
+            <span>
+              <img src="assets/Images/key2.png" />
+            </span>
+            <span style="margin-left: 10px;"> Diverse Offerings</span>
+          </div>
+            <span><img src="assets/Images/Frame 1000004545.png" /></span>
+         
+        </div>
+        </button>
+        <!-- <button
+          class="list-group-item list-group-item-action tabButton"
+          (click)="loadComponent('component2')"
+          id="tab2"
+        >
+          <div class="d-flex tabBtnContentContainer">
+            <div class="d-flex tabBtnContent">
+              <span>
+                <img src="assets/Images/key2.png" />
+              </span>
+              <span style="margin-left: 10px;"> Diverse Offerings</span>
+            </div>
+              <span><img src="assets/Images/Frame 1000004545.png" /></span>
+           
+          </div>
+        </button> -->
+      </div>
+       <div class=" col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 your-vehicle-content-right ">
+        <ng-template appDynamicHost></ng-template>
+      </div>
+    </div>
+   
+  </div>
+</section>
+
+<!-- Clint overviews End -->
+
+<section class="container-fluid carosulBg ">
+    <div class="container"><app-test-carosulbootstrap></app-test-carosulbootstrap></div>
+</section>
+<!-- <section>
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button 
+        *ngFor="let tab of ['home', 'profile', 'messages', 'settings']" 
+        class="nav-link" 
+        [class.active]="activeTab === tab" 
+        (click)="setActiveTab(tab)" 
+        [attr.data-bs-target]="'#v-pills-' + tab"
+        type="button" 
+        role="tab" 
+        [attr.aria-controls]="'v-pills-' + tab" 
+        [attr.aria-selected]="activeTab === tab">
+        {{ tab | titlecase }}
+      </button>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+      <div 
+        *ngFor="let tab of ['home', 'profile', 'messages', 'settings']" 
+        class="tab-pane fade" 
+        [class.show]="activeTab === tab" 
+        [class.active]="activeTab === tab" 
+        [id]="'v-pills-' + tab" 
+        role="tabpanel" 
+        [attr.aria-labelledby]="'v-pills-' + tab + '-tab'">
+        {{ tab | titlecase }} Tab
+      </div>
+    </div>
+  </div>
+  
+  
+</section> -->
+
+<!-- Tab section Start -->
+<app-textanimation></app-textanimation>
+<!-- Tab section End -->

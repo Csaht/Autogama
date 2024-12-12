@@ -1,0 +1,237 @@
+.home-container{
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-banner-img-container{
+    position: relative;
+    /* top: -64px; */
+}
+
+.home-banner-img{
+    width: 100%;
+    
+}
+
+.nav-btn{
+    background: #E50913;
+    color: #fff;
+
+}
+
+.home-banner-txt-container{
+    position: absolute;
+    width: 100%;
+    bottom: 70px;
+    text-align: center;
+}
+
+.home-banner-txt-sm{
+    color: #ffffff;
+    line-height: 46.8px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Sora';
+}
+.home-banner-txt-lg{
+    font-weight: 600;
+    font-size: 44px;
+    color: #ffffff;
+    line-height:46.8px;
+    font-family: 'Sora';
+}
+
+.doubleArrowImg{
+    width: 20px !important;
+}
+
+.section-heading-muted-text{
+    font-weight: 500;
+    font-size: 30px;
+    color: #646361;
+    font-family: 'Jura';
+}
+
+.section-heading-lg-white-text{
+    font-weight: 600;
+    font-size: 38px;
+    color: #ffffff;
+    font-family: 'Sora';
+    line-height: 46.8px;
+}
+.section-heading-lg-red-text{
+    font-weight: 600;
+    font-size: 38px;
+    color: #E50913;
+    font-family: 'Sora';
+    line-height: 46.8px;
+}
+
+.your-vehicle-container{
+    background:#1e1d1b;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px 100px 100px;
+}
+
+.carosulBg{
+    background: #403e3b;
+    
+}
+.section-content{
+    display: flex;
+}
+
+.your-vehicle-left-container{
+    width: 50%;
+}
+
+.your-vehicle-right-container{
+    width: 50%;
+}
+.para-text{
+    color: #fff;
+}
+.text-swipe{
+    color: #888;
+}
+.swipe-btn-container{
+    display: flex;
+    cursor: pointer;
+    width: 5%;
+    margin: auto;
+    
+}
+
+.swipe-btn-container:hover .text-swipe{
+    color: #555 !important;
+    
+}
+
+.clint-overviews-section{
+    background: #21201E;
+}
+
+.know-more-section{
+    background: #151515;
+    padding: 100px 100px 100px 100px;
+}
+
+.know-more-form{
+    background: #21201E;
+    /* width: 65%; */
+    border-radius: 4px;
+    /* background: linear-gradient(to right, #ff7c7c, #ffc36c);  */
+    border-color: linear-gradient(to right, #ff7c7c, #ffc36c); 
+    /* background: linear-gradient(to right, red, blue); */
+
+    /* border-image: linear-gradient(to right ,#6A6A6A80,#FFFFFF70,#FFFFFF70,#6A6A6A80);  */
+    /* background: linear-gradient(to right ,#FFFFFF 100%,#FFFFFF 15%,#FFFFFF 15%,#FFFFFF 100%); */
+}
+
+.formTg{
+    width: 90%;
+    margin: auto;
+    padding: 36px 40px 36px 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.listitem-txt{
+    font-family: 'Jura';
+    color: #ffffff;
+}
+.listitem{
+    display: flex;
+}
+
+ul > li{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:960px) {
+    .section-heading{
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-family: 'Sora' !important;
+    }
+    .knoMoreContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .your-vehicle-contentContainerMobile{
+        display: flex !important;
+        flex-direction: column !important; 
+    }
+
+    .tabButton{
+        margin: 4px 0px !important;
+    }
+   
+    .section-heading-muted-text{
+        font-size: 14px !important;
+    }
+    .section-heading-lg-white-text{
+        font-size: 16px !important;
+    }
+    .section-heading-lg-red-text{
+        font-size: 16px !important;
+    }
+    .your-vehicle-container{
+        padding: 15px !important;
+    }
+    .section-heading-muted-text-container{
+        margin-bottom: -14px !important;
+    }
+    .section-heading{
+        line-height: 20px;
+    }
+    .your-vehicle-content-left{
+        /* width: 90% !important;
+        margin: auto; */
+        width: 100%;
+    }
+    .your-vehicle-content-right{
+        width: 100%;
+    }
+
+
+}
+
+
+/* Tabs */
+
+.tabButton{
+    background: #21201E;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin: 10px -34px;;
+}
+
+/* .tabButton  active:focus{
+    
+} */
+
+.tabButton.active{
+    background: red !important;
+}
+
+.tabBtnContentContainer{
+    justify-content: space-between;
+    align-items: center;
+}
+.tabBtnContent{
+   
+    align-items: center;
+}
+
+.section-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+img{
+    width: 200px;
+}
+.carousel-control-next{
+    display: none!important;
+}

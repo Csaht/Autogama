@@ -1,0 +1,33 @@
+
+.navToolbar{
+   /* position: relative; */
+   position: absolute;
+   top: 0;
+   z-index: 9;
+   background: transparent !important;
+    
+
+}
+
+.header-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-list{
+    display: flex;
+}
+.mr-5{
+    margin-right: 30px !important;
+}
+
+.nav-btn{
+    background: #E50913;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Sora';
+
+}
+.todo-vertical-line{
+    color: #fff;
+}
